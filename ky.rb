@@ -2,16 +2,16 @@
 class Ky < Formula
   desc "A kubernetes yaml swiss army knife."
   homepage "https://github.com/hornpolish/ky"
-  version "0.9.5"
+  version "0.9.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/hornpolish/ky/releases/download/v0.9.5/ky_0.9.5_Darwin_x86_64.tar.gz"
-    sha256 "742d66c3057e340da1fd1fcde11a4792d6fd52b862e50aa1b766bb81423ad1f9"
+    url "https://github.com/hornpolish/ky/releases/download/v0.9.6/ky_0.9.6_Darwin_x86_64.tar.gz"
+    sha256 "43ecf1d8c87dde3d1fd7a607e6f29dfad59f00d28b583bec14f2c001ba3398d2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/hornpolish/ky/releases/download/v0.9.5/ky_0.9.5_Linux_x86_64.tar.gz"
-      sha256 "0cb660f108ec29786f6352b4b4d042b40abb4cbd50a1bd67bbc207d3dfbe6b05"
+      url "https://github.com/hornpolish/ky/releases/download/v0.9.6/ky_0.9.6_Linux_x86_64.tar.gz"
+      sha256 "9dfdd14dbd6176e6c5fd3225d483aeb18211157164f198f5372f910926fb3cc3"
     end
   end
 
